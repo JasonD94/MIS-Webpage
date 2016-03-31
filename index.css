@@ -61,8 +61,14 @@ body > .row {
 }
 
 html {
-    min-height: 100%;
-    position: relative;
+  min-height: 100%;
+  position: relative;
+}
+
+/* No more weirdness in mobile, there's actually some spacing above / below the profile image! */
+img {
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 /*
